@@ -1,5 +1,7 @@
 # O Guia Definitivo de MarkDown para Iniciantes
 
+##### Por Gustavo Mendel
+
 Com a popularização do **GitHub**, e também da grande quantidade de novos programadores ultimamente, 
 a demanda para aprender *Markdown* aumentou bastante. *Markdown* é uma linguagem de marcação, parecido 
 com a sua companheira HTML. 
@@ -252,6 +254,20 @@ Vai gerar:
 + Exemplo 3
 + Exemplo 3
 
+**_Lista de tarefas_**
+
+Podemos criar também uma lista de tarefas, com a CheckBox preenchida ou não. Vejamos o exemplo:
+
+~~~
+- [ ] Esta é uma CheckBox não marcada
+- [x] Esta é uma CheckBox marcada
+~~~
+
+Learning Center:
+
+- [ ] Esta é uma CheckBox não marcada
+- [x] Esta é uma CheckBox marcada
+
 _______________________________________________
 
 ### Trechos de códigos
@@ -262,14 +278,14 @@ consigo mostrar para vocês os códigos como são originalmente antes de serem f
 
 Temos o trecho simples, sendo de apenas uma linha, usando uma crase para abrir e outra para fechar:
 ```
-`este é um exemplo`
+` este é um exemplo `
 ```
 Resultado:
 
 `este é um exemplo`
 
 E também temos a mais completa, que podemos colocar quantas linhas de códigos nós quisermos.
-Use três crases para abrir e três para fechar, desse jeito:
+Use três crases ( ´´´ ) ou três tils ( ~~~ ) para abrir e três para fechar, desse jeito:
 
 ```
     ```
@@ -290,6 +306,90 @@ Querido Exemplo
 Nota que não irá formatar o negrito!
 ```
 
+Para especificar qual lingugem seu código é feito, basta adicionar o nome da lingugem logo após os três primeiros tils ou crases.
+Por exemplo: 
+```
+    ~~~javascript
+    Este é um código feito em JavaScript
+    ~~~
+```
+
+Para saber quais lingugens são suportadas por este mecanismo, clique [aqui](https://pygments.org/languages/) e veja a listagem do Pygments.
+
 **_Nota:_** Para interligar um código dentro do outro, assim como eu fiz de exemplo para vocês: Abra o primeiro trecho de código com as três crases, e feche de imediato. Dentro desse código use a indentação de 4 espaços, e assim poderá abrir outro código sem formatar.
 
 _______________________________________________
+
+### Links
+
+É possível colocar algum link em seu *'Readme'*, e ainda colocá-lo por debaixo de uma palavra, é o chamado link-âncora, acessando-o ao clicar na palavra.
+Entre colchetes [ ] a palava que deseja por debaixo dos panos. E entre parentêses ( ) o link para acesso. Vejamos o exemplo do código:
+
+```
+Clique [aqui](https://github.com) para acessar à página do GitHub.
+```
+Resultado:
+Clique [aqui](https://github.com) para acessar à página do GitHub.
+
+Lembre-se que pode criar links para outros repositórios seus no GitHub, também é possível acessar outro arquivo no mesmo repositório, e até mesmo a posição da página do leitor no mesmo arquivo. Por exemplo, clique [aqui](https://github.com/gustavo-mendel/guia-definitivo-de-markdown#a-sintaxe) para acessar o título 'Sintaxe' neste mesmo arquivo. Tais possibilidades deixam seu *README* bem mais apresentável, e com uma interatividade maior, demonstrando que o escritor do código entende bem de *MarkDown*.
+
+Para links sem uma palavra por cima do link, use '< >' para envolver o link desejado, assim o link aparecerá por inteiro ao leitor. Exemplo: 
+<https://google.com.br>
+
+________________________________________________
+
+### Adicionando imagens
+
+Semelhante ao mecanismo de adicionar links-âncora, podemos adicionar imagens para nosso aquivos.md também, mas tome cuidado com a resolução da imagem, imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
+
+A sintaxe é parecida, apenas adicione uma exclamação (!) no início.
+~~~
+![Alt ou título da imagem](URL da imagem)
+~~~
+
+________________________________________________
+
+### Tabela
+
+Escolha os títulos das colunas e use ~|~ para delimitar as colunas. Depois, utilize hífen ~-~ na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o ~|~ para delimitar colunas. Veja um exemplo abaixo:
+
+~~~
+Teste   | Exemplo
+------- | ------
+Teste 1 | Exemplo 1
+Teste 2 | Exemplo 2
+Teste 3 | Exemplo 3
+Teste 4 | Exemplo 4
+~~~
+
+No Learning Center irá aparecer:
+
+Teste   | Exemplo
+------- | ------
+Teste 1 | Exemplo 1
+Teste 2 | Exemplo 2
+Teste 3 | Exemplo 3
+Teste 4 | Exemplo 4
+
+Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize ~:~ ao lado do campo horizontal de hífens ~---~, na segunda linha da sua tabela. Veja abaixo:
+
+Alinhado a esquerda: usar ~:~ no lado esquerdo (alinhamento padrão);
+Alinhado a direita: usar ~:~ no lado direito;
+Centralizado: usar ~:~ dos dois lados.
+
+Exemplo:
+~~~
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Exemplo | Exemplo | Exemplo
+~~~
+
+Learning Center:
+
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Exemplo | Exemplo | Exemplo
+
+## Créditos
+
+Copyright (C) 2020 by Gustavo Mendel
