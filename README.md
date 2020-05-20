@@ -1,5 +1,7 @@
 # O Guia Definitivo de MarkDown para Iniciantes
 
+<img src="https://user-images.githubusercontent.com/55323701/82506032-25bbd600-9ad5-11ea-8b5e-e7c699d385af.png" alt="drawing" width="150"/>
+
 ##### Por Gustavo Mendel
 
 Com a popularização do **GitHub**, e também da grande quantidade de novos programadores ultimamente, 
@@ -11,7 +13,7 @@ no **GitHub**, e deixar o seu projeto mais 'apresentável'. E é por isso que ho
 simples porém definitivo para aprender a tão famosa *Markdown* e a importancia de um bom **README** em seu projeto para iniciantes.
 
 
-## Um bom README
+## README E SUA IMPORTÂNCIA
 
 Todo projeto seu no GitHub terá seus códigos, seus arquivos, suas pastas todas jogadas lá. Um projeto 
 digno e bem estruturado precisa passar para o leitor **o sentido do seu projeto, para que ele serve, 
@@ -23,7 +25,7 @@ E para isso existe um arquivinho bem simples chamado **'README.md' ou 'readme.md
 no mínimo organizado no GitHub. Perceba que o arquivo possui o sufixo **'.md'**, essa é a terminologia 
 de arquivos **Markdown**. Ao criar o **README.md** em seu repositório, ao rolar um pouco para baixo a página
 inicial, todo o conteúdo formatado em Markdown irá aparecer, contendo todas as informações necessárias para o projeto.
-Para ver o conteúdo sem formatação, procure um ícone de um lápis, pu até clique no arquivo em si **_README.md_**, 
+Para ver o conteúdo sem formatação, procure um ícone de um lápis, ou até clique no arquivo em si **_README.md_**, 
 assim você será encaminhado para a edição do arquivo.
 
 ## A sintaxe
@@ -48,15 +50,7 @@ A sintaxe é simples:
 ###### Título 6
 ```
 
-Vai de acordo com a quantidade de '#'. A equivalência em HTML:
-```
-<h1> Título 1 </h1>
-<h2> Título 2 </h2>
-<h3> Título 3 </h3>
-<h4> Título 4 </h4>
-<h5> Título 5 </h5>
-<h6> Título 6 </h6>
-```
+Vai de acordo com a quantidade de '#'.
 Exemplos:
 
 # Aqui um título 1
@@ -65,7 +59,7 @@ Exemplos:
 #### Aqui um título 4
 ##### Aqui um título 5
 ###### Aqui um título 6
-_______________________________________________
+___
 
 ### Ênfase
 
@@ -82,12 +76,6 @@ Este é **negrito**
 This is __strong__
 ```
 
-HTML:
-
-```
-This is <strong>bold</strong>
-```
-
 #### Itálico
 
 Sintaxe do *itálico:*
@@ -97,12 +85,6 @@ Este é *itálico*
 This is _italic_
 ```
 
-HTML:
-
-```
-This is <em>italic</em>
-```
-
 #### Negrito e itálico
 
 Sintaxe do **_negrito e itálico:_**
@@ -110,7 +92,41 @@ Sintaxe do **_negrito e itálico:_**
 ```
 **_strong and em_**
 ```
-_______________________________________________
+___
+### Linha horizontal
+
+Você pode adicionar linhas horizontais para deixar o texto mais organizado e apresentável.
+Usando três hífens, três asteriscos ou três underscore:
+
+```
+Hífens
+
+---
+
+Asteriscos
+
+***
+
+Underscore
+
+___
+```
+
+Learning Center:
+
+Hífens
+
+---
+
+Asteriscos
+
+***
+
+Underscore
+
+___
+```
+___
 ### Citações
 
 Para criar uma citação em bloco, adicione um '>' na frente de um parágrafo.
@@ -172,7 +188,7 @@ Resultado:
 > - Profits were higher than ever.
 >
 > *Everything* is going **well**.
-_______________________________________________
+___
 
 ### Listas
 
@@ -187,19 +203,9 @@ Usando (número)(ponto) você pode ordenar as listas numericamente, como por exe
 2. Segundo
 3. Terceiro
 4. Quarto
-
-1. Primeiro
-1. Segundo
-1. Terceiro
-1. Quarto
-
-1. Primeiro
-8. Segundo
-5. Terceiro
-3. Quarto
 ```
 
-Todos eles vão gerar o seguinte resultado:
+Vai gerar o seguinte resultado:
 
 1. Primeiro
 2. Segundo
@@ -234,24 +240,18 @@ itens de linha.
 
 ```
 - Exemplo 1
-- Exemplo 1
 
 * Exemplo 2
-* Exemplo 2
 
-+ Exemplo 3
 + Exemplo 3
 ```
 
 Vai gerar:
 
 - Exemplo 1
-- Exemplo 1
 
 * Exemplo 2
-* Exemplo 2
 
-+ Exemplo 3
 + Exemplo 3
 
 **_Lista de tarefas_**
@@ -268,7 +268,7 @@ Learning Center:
 - [ ] Esta é uma CheckBox não marcada
 - [x] Esta é uma CheckBox marcada
 
-_______________________________________________
+___
 
 ### Trechos de códigos
 
@@ -306,19 +306,24 @@ Querido Exemplo
 Nota que não irá formatar o negrito!
 ```
 
-Para especificar qual lingugem seu código é feito, basta adicionar o nome da lingugem logo após os três primeiros tils ou crases.
+Para especificar qual lingugem seu código é feito, isso ajuda tanto semânticamente como também na coloração do código, basta adicionar o nome da lingugem logo após os três primeiros tils ou crases.
 Por exemplo: 
 ```
-    ~~~javascript
-    Este é um código feito em JavaScript
+    ~~~python
+    s = "Sintaxe do Pythong"
+    print s
     ~~~
 ```
+~~~python
+s = "Sintaxe do Python"
+print s
+~~~
 
 Para saber quais lingugens são suportadas por este mecanismo, clique [aqui](https://pygments.org/languages/) e veja a listagem do Pygments.
 
 **_Nota:_** Para interligar um código dentro do outro, assim como eu fiz de exemplo para vocês: Abra o primeiro trecho de código com as três crases, e feche de imediato. Dentro desse código use a indentação de 4 espaços, e assim poderá abrir outro código sem formatar.
 
-_______________________________________________
+___
 
 ### Links
 
@@ -336,7 +341,7 @@ Lembre-se que pode criar links para outros repositórios seus no GitHub, também
 Para links sem uma palavra por cima do link, use '< >' para envolver o link desejado, assim o link aparecerá por inteiro ao leitor. Exemplo: 
 <https://google.com.br>
 
-________________________________________________
+___
 
 ### Adicionando imagens
 
@@ -347,11 +352,11 @@ A sintaxe é parecida, apenas adicione uma exclamação (!) no início.
 ![Alt ou título da imagem](URL da imagem)
 ~~~
 
-________________________________________________
+___
 
 ### Tabela
 
-Escolha os títulos das colunas e use ~|~ para delimitar as colunas. Depois, utilize hífen ~-~ na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o ~|~ para delimitar colunas. Veja um exemplo abaixo:
+Escolha os títulos das colunas e use `|` para delimitar as colunas. Depois, utilize hífen `-` na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o `|` para delimitar colunas. Veja um exemplo abaixo:
 
 ~~~
 Teste   | Exemplo
@@ -371,11 +376,11 @@ Teste 2 | Exemplo 2
 Teste 3 | Exemplo 3
 Teste 4 | Exemplo 4
 
-Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize ~:~ ao lado do campo horizontal de hífens ~---~, na segunda linha da sua tabela. Veja abaixo:
+Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize dois pontos `:` ao lado do campo horizontal de hífens `---`, na segunda linha da sua tabela. Veja abaixo:
 
-Alinhado a esquerda: usar ~:~ no lado esquerdo (alinhamento padrão);
-Alinhado a direita: usar ~:~ no lado direito;
-Centralizado: usar ~:~ dos dois lados.
+* Alinhado a esquerda: usar `:` no lado esquerdo (alinhamento padrão)
+* Alinhado a direita: usar `:` no lado direito
+* Centralizado: usar `:` dos dois lados
 
 Exemplo:
 ~~~
