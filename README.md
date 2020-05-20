@@ -125,8 +125,7 @@ Asteriscos
 Underscore
 
 ___
-```
-___
+
 ### Citações
 
 Para criar uma citação em bloco, adicione um '>' na frente de um parágrafo.
