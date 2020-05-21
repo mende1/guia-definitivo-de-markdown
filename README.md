@@ -1,6 +1,6 @@
-# O Guia Definitivo de MarkDown para Iniciantes
+<p align="center"><img src="https://user-images.githubusercontent.com/55323701/82506032-25bbd600-9ad5-11ea-8b5e-e7c699d385af.png" alt="drawing" width="150"/></p>
 
-<img src="https://user-images.githubusercontent.com/55323701/82506032-25bbd600-9ad5-11ea-8b5e-e7c699d385af.png" alt="drawing" width="150"/>
+# O Guia Definitivo de MarkDown para Iniciantes
 
 ##### Por Gustavo Mendel
 
@@ -28,7 +28,28 @@ inicial, todo o conteúdo formatado em Markdown irá aparecer, contendo todas as
 Para ver o conteúdo sem formatação, procure um ícone de um lápis, ou até clique no arquivo em si **_README.md_**, 
 assim você será encaminhado para a edição do arquivo.
 
-## A sintaxe
+## Alguns pontos e detalhes a serem adicionados em seu arquivo readme.md para melhorar seu projeto:
+*Fica claro aqui, que são todas opicionais, cabe a você desenvolvedor a analisar e escolher quais colocar em seu repositório, lembrando que nem todos pontos a seguir cabem em todos os repositórios, depende do que se trata ele, se é um jogo, um programa, um código-fonte de um site, saiba escolher o que colocar.*
+
+___
+
+1. **Introdução**
+> *Uma breve apresentação sobre o que é o seu projeto, o que ele faz, e algumas informações úteis para serem ditas inicialmente.*
+2. **Índice**
+> *Assim como nesse readme.md também tem, é interessante ter um índice com os links para os tópicos que vão ser abordados em seu texto.*
+3. **Habilidaes adiquiridas ou requisitadas para o projeto**
+> *Se tens posse de um projeto que visa a aprendizagem, o seu próprio estudo ou até base para estudos de outras pessoas, é interessante colocar quais habilidades são requeridas para estudar/rodar o seu código, ou habilidades que vão ser adiquiridas se seguirem os seus estudos.*
+4. **Como executar**
+> *Se tens um programa que faz alguma coisa, um jogo, um código em determinada linguagem, é interessante adicionar a informação de como executar seus códigos, quais programas precisa no computador do usuário, comando para executar os códigos, algumas informaçãoes de quais arquivos precisa ter, entre diversos outros.*
+5. **Contribuindo**
+> *Se teu projeto é OpenSource, é natural que outros progamadores irão querer melhorar seu projeto, adicionando novos recursos, corrigindo algum bug, implementando alguma tecnologia, entre diversos outros, para isso ele deverá fazer pulls requests em seu código, seria muito interessante implementar algumas informações de como contribuir com o projeto, como fazer um Fork, como fazer o pull request, e até algumas preferências pessoais suas de como queres o pull request*
+6. **Créditos e Licença**
+> *É interessante também em alguns casos concluir com os créditos do repositório ou até mesmo da licença utilizada nele.*
+___
+
+**_Note que não são todos os pontos a colocar, tão pouco são obrigatórios, pensei apenas em ajudar os iniciantes que estão criando teus repositórios no momento, e alguns pontos que são muito importantes para projetos simples. Claro que projetos mais avançados requerem muito mais pontos a ser colocados, e depende muito de um para outro. O foco destas dicas é pensando nos projetos mais básicos e iniciantes._**
+
+## A Sintaxe do MarkDown
 
 1. [Títulos](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#títulos)
 2. [Ênfase](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#ênfase)
@@ -455,6 +476,20 @@ Vejamos:
   <dt>Markdown no HTML</dt>
   <dd>*Não* funciona **muito bem**. Use as <em>tags</em> do HTML</dd>
 </dl>
+
+### ~~Extra:~~ Emojis
+
+O MarkDown também permite colocar alguns emojis em seus textos, não abuse deles para não parecer um circo de diversões, só em alguns casos bem específicos.
+
+:nome_do_emoji:
+
+Alguns exemplos:
+
+```
+:smile: :fire: :file_folder: :space_invader: :computer:
+```
+
+:smile: :fire: :file_folder: :space_invader: :computer:
 
 ## Créditos
 
