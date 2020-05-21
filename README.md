@@ -92,6 +92,14 @@ Sintaxe do **_negrito e itálico:_**
 ```
 **_strong and em_**
 ```
+
+#### Riscado
+
+Sintaxe do texto ~~riscado~~:
+
+```
+~~riscado~~
+```
 ___
 ### Linha horizontal
 
@@ -353,6 +361,21 @@ A sintaxe é parecida, apenas adicione uma exclamação (!) no início.
 
 ___
 
+### Links em imagens
+
+Você pode fazer com que uma imagem carregue um link por debaixo dos panos, e ao clicar nela, acesse o link. É uma mescla tanto semânticamente quanto na sintaxe. Vejamos:
+
+```
+Clique na imagem para acessar o Google.
+[![Logo_Google_2013_Official svg](https://user-images.githubusercontent.com/5532...](https://google.com.br)
+```
+
+Clique na imagem para acessar o Google.
+
+[![Logo_Google_2013_Official svg (1) (7)](https://user-images.githubusercontent.com/55323701/82508957-fad58000-9adc-11ea-899a-b43ba9f83fd8.png)](https://google.com.br)
+
+___
+
 ### Tabela
 
 Escolha os títulos das colunas e use `|` para delimitar as colunas. Depois, utilize hífen `-` na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o `|` para delimitar colunas. Veja um exemplo abaixo:
@@ -393,6 +416,32 @@ Learning Center:
 Alinhado a esquerda | Centralizado | Alinhado a direita
 :--------- | :------: | -------:
 Exemplo | Exemplo | Exemplo
+
+___
+
+### HTML Embutido
+
+Você também pode usar HTML bruto no seu Markdown, e geralmente funcionará muito bem.
+
+Vejamos:
+
+```
+<dl>
+  <dt>Lista definitiva</dt>
+  <dd>É algo que as pessoas usam às vezes.</dd>
+
+  <dt>Markdown no HTML</dt>
+  <dd>*Não* funciona **muito bem**. Use as <em>tags</em> do HTML</dd>
+</dl>
+```
+
+<dl>
+  <dt>Lista definitiva</dt>
+  <dd>É algo que as pessoas usam às vezes.</dd>
+
+  <dt>Markdown no HTML</dt>
+  <dd>*Não* funciona **muito bem**. Use as <em>tags</em> do HTML</dd>
+</dl>
 
 ## Créditos
 
