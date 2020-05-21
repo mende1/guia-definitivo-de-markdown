@@ -30,6 +30,19 @@ assim você será encaminhado para a edição do arquivo.
 
 ## A sintaxe
 
+1. [Títulos](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#títulos)
+2. [Ênfase](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#ênfase)
+3. [Linha Horizontal](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#linha-horizontal)
+4. [Citações](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#citações)
+5. [Listas](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#listas)
+6. [Códigos](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#códigos)
+7. [Links](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#links)
+8. [Imagens](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#adicionando-imagens)
+9. [Links em imagens](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#links-em-imagens)
+10. [Tabelas](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#tabela)
+11. [HTML Embutido](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#html-embutido)
+12. [Créditos](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#créditos)
+
 ### Títulos
 
 Inicialmente temos os 'Headings', ou Títulos, que é semelhante à linguagem de marcação HTML. Existe
@@ -277,7 +290,7 @@ Learning Center:
 
 ___
 
-### Trechos de códigos
+### Códigos
 
 Para colocar algum código sem que ele esteja formatado, então poderá colocar algum código em *Markdown* dentro
 dos trechos de códigos e ele não será formatado, será mostrado exatamento como escreveu, é desse jeito que eu
