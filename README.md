@@ -369,7 +369,7 @@ Clique [aqui](https://github.com) para acessar à página do GitHub.
 Resultado:
 Clique [aqui](https://github.com) para acessar à página do GitHub.
 
-Lembre-se que pode criar links para outros repositórios seus no GitHub, também é possível acessar outro arquivo no mesmo repositório, e até mesmo a posição da página do leitor no mesmo arquivo. Por exemplo, clique [aqui](https://github.com/gustavo-mendel/guia-definitivo-de-markdown#a-sintaxe) para acessar o título 'Sintaxe' neste mesmo arquivo. Tais possibilidades deixam seu *README* bem mais apresentável, e com uma interatividade maior, demonstrando que o escritor do código entende bem de *MarkDown*.
+Lembre-se que pode criar links para outros repositórios seus no GitHub, também é possível acessar outro arquivo no mesmo repositório, e até mesmo a posição da página do leitor no mesmo arquivo. Por exemplo, clique [aqui](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#a-sintaxe-do-markdown) para acessar o título 'Sintaxe' neste mesmo arquivo. Tais possibilidades deixam seu *README* bem mais apresentável, e com uma interatividade maior, demonstrando que o escritor do código entende bem de *MarkDown*.
 
 Para links sem uma palavra por cima do link, use '< >' para envolver o link desejado, assim o link aparecerá por inteiro ao leitor. Exemplo: 
 <https://google.com.br>
