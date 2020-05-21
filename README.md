@@ -64,7 +64,7 @@ ___
 11. [HTML Embutido](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#html-embutido)
 12. [Créditos](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#créditos)
 
-### Títulos
+## Títulos
 
 Inicialmente temos os 'Headings', ou Títulos, que é semelhante à linguagem de marcação HTML. Existe
 uma herança de títulos, em que diferem não só o tamanho da fonte, como também semânticamente. Ou seja,
@@ -93,9 +93,8 @@ Exemplos:
 #### Aqui um título 4
 ##### Aqui um título 5
 ###### Aqui um título 6
-___
 
-### Ênfase
+## Ênfase
 
 Você pode adicionar ênfase ao seu texto, como por exemplo o **negrito**, o *itálico*, ou até mesmo **_negrito e itálico_**.
 Lembre-se que além da aparência do seu texto, existe a semântica para ser seguida. Textos em negrito devem ser lidos com força,
@@ -134,8 +133,8 @@ Sintaxe do texto ~~riscado~~:
 ```
 ~~riscado~~
 ```
-___
-### Linha horizontal
+
+## Linha horizontal
 
 Você pode adicionar linhas horizontais para deixar o texto mais organizado e apresentável.
 Usando três hífens, três asteriscos ou três underscore:
@@ -166,9 +165,7 @@ Asteriscos
 
 Underscore
 
-___
-
-### Citações
+## Citações
 
 Para criar uma citação em bloco, adicione um '>' na frente de um parágrafo.
 
@@ -229,9 +226,8 @@ Resultado:
 > - Profits were higher than ever.
 >
 > *Everything* is going **well**.
-___
 
-### Listas
+## Listas
 
 Você pode organizar listas, podendo ser ordenadas ou não.
 
@@ -309,9 +305,7 @@ Learning Center:
 - [ ] Esta é uma CheckBox não marcada
 - [x] Esta é uma CheckBox marcada
 
-___
-
-### Códigos
+## Códigos
 
 Para colocar algum código sem que ele esteja formatado, então poderá colocar algum código em *Markdown* dentro
 dos trechos de códigos e ele não será formatado, será mostrado exatamento como escreveu, é desse jeito que eu
@@ -364,9 +358,7 @@ Para saber quais lingugens são suportadas por este mecanismo, clique [aqui](htt
 
 **_Nota:_** Para interligar um código dentro do outro, assim como eu fiz de exemplo para vocês: Abra o primeiro trecho de código com as três crases, e feche de imediato. Dentro desse código use a indentação de 4 espaços, e assim poderá abrir outro código sem formatar.
 
-___
-
-### Links
+## Links
 
 É possível colocar algum link em seu *'Readme'*, e ainda colocá-lo por debaixo de uma palavra, é o chamado link-âncora, acessando-o ao clicar na palavra.
 Entre colchetes [ ] a palava que deseja por debaixo dos panos. E entre parentêses ( ) o link para acesso. Vejamos o exemplo do código:
@@ -382,9 +374,7 @@ Lembre-se que pode criar links para outros repositórios seus no GitHub, também
 Para links sem uma palavra por cima do link, use '< >' para envolver o link desejado, assim o link aparecerá por inteiro ao leitor. Exemplo: 
 <https://google.com.br>
 
-___
-
-### Adicionando imagens
+## Adicionando imagens
 
 Semelhante ao mecanismo de adicionar links-âncora, podemos adicionar imagens para nosso aquivos.md também, mas tome cuidado com a resolução da imagem, imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
 
@@ -393,9 +383,7 @@ A sintaxe é parecida, apenas adicione uma exclamação (!) no início.
 ![Alt ou título da imagem](URL da imagem)
 ~~~
 
-___
-
-### Links em imagens
+## Links em imagens
 
 Você pode fazer com que uma imagem carregue um link por debaixo dos panos, e ao clicar nela, acesse o link. É uma mescla tanto semânticamente quanto na sintaxe. Vejamos:
 
@@ -408,9 +396,7 @@ Clique na imagem para acessar o Google.
 
 [![Logo_Google_2013_Official svg (1) (7)](https://user-images.githubusercontent.com/55323701/82508957-fad58000-9adc-11ea-899a-b43ba9f83fd8.png)](https://google.com.br)
 
-___
-
-### Tabela
+## Tabela
 
 Escolha os títulos das colunas e use `|` para delimitar as colunas. Depois, utilize hífen `-` na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o `|` para delimitar colunas. Veja um exemplo abaixo:
 
@@ -451,9 +437,7 @@ Alinhado a esquerda | Centralizado | Alinhado a direita
 :--------- | :------: | -------:
 Exemplo | Exemplo | Exemplo
 
-___
-
-### HTML Embutido
+## HTML Embutido
 
 Você também pode usar HTML bruto no seu Markdown, e geralmente funcionará muito bem.
 
@@ -477,7 +461,7 @@ Vejamos:
   <dd>*Não* funciona **muito bem**. Use as <em>tags</em> do HTML</dd>
 </dl>
 
-### ~~Extra:~~ Emojis
+## ~~Extra:~~ Emojis
 
 O MarkDown também permite colocar alguns emojis em seus textos, não abuse deles para não parecer um circo de diversões, só em alguns casos bem específicos.
 
@@ -490,6 +474,8 @@ Alguns exemplos:
 ```
 
 :smile: :fire: :file_folder: :space_invader: :computer:
+
+Para conferir uma lista com os emojis e suas sintaxes, clique aqui: [EMOJIS](https://gist.github.com/rxaviers/7360908)
 
 ## Créditos
 
