@@ -49,7 +49,7 @@ ___
 
 **_Note que não são todos os pontos a colocar, tão pouco são obrigatórios, pensei apenas em ajudar os iniciantes que estão criando teus repositórios no momento, e alguns pontos que são muito importantes para projetos simples. Claro que projetos mais avançados requerem muito mais pontos a ser colocados, e depende muito de um para outro. O foco destas dicas é pensando nos projetos mais básicos e iniciantes._**
 
-## A Sintaxe do MarkDown
+# A Sintaxe do MarkDown
 
 1. [Títulos](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#títulos)
 2. [Ênfase](https://github.com/gustavo-mendel/guia-definitivo-de-markdown/blob/master/README.md#ênfase)
